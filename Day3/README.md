@@ -1,21 +1,16 @@
 
 # Day 3
 
-## Project Goals
+## Project Goal:
 
-  * Turn your project into a python package using `setup.py` and `__init__.py`
-  * Deploy a version (even preliminary) to PyPI with a LICENSE and version number
-  * Start a readthedocs page for your repo
-  * Aim to finish the basic functionality of your package
+Nothing is scheduled for today! Feel free to take time off today. 
 
 ## Learning Objectives
 
-  * Be able to use docstrings and sphinx to document code for others to use
-  * Profile the run time of your code and identify the computational bottlenecks
+  * Use docstrings and sphinx to document code for others to use
   * Set up and release Python packages publicly
 
 ## Useful Links
 
-  * [Day 3 Slides](https://docs.google.com/presentation/d/1yL9IwCZztBag5LCMrhwyl_xo8OVx0TVHg8LCRqXb-u8/edit?usp=sharing)
-  * [Slides on Releasing Code](https://docs.google.com/presentation/d/1V7mgeZCZ_9-eKKz4yMzAJcyqSCrXNtQUwU_zMVnNk_w/edit?usp=sharing)
-  * [Colaboratory Link for analyze_profiler.ipynb](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day3/analyze_profiler.ipynb)
+  * [Day 3 Slides](https://docs.google.com/presentation/d/1gwteh1rlOiHc3H4KEoXWe9HUAwsckL4IOK73CuHJUBI/edit?usp=sharing)
+  * [Slides on Releasing Code](https://docs.google.com/presentation/d/1qnnxWluK9fi96aptvhIvfCTAriC3Q_KhIaBtJPZvoro/edit?usp=sharing)

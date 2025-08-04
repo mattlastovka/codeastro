@@ -3,6 +3,8 @@ scipy
 astropy
 matplotlib
 cython
-orbitize
 pytest
 pandas
+sphinx
+sphinxcontrib-napoleon
+sphinx-rtd-theme
