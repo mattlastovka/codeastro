@@ -27,7 +27,7 @@ def generate_rgb_pixel(x, y):
     Function to generate a RGB color at any given pixel
     """
     red = np.random.uniform(0, y/dim)
-    green = np.sqrt(0.4 * np.sin(x/dim2 * np.pi + np.random.uniform(0, y/10)))
+    green = np.sqrt(0.4 * np.abs(np.sin(x/dim2 * np.pi + np.random.uniform(0, y/10))))
     blue = np.random.poisson(lam=100)/255
     return (red, green, blue)
 
