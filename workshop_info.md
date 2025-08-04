@@ -9,6 +9,7 @@ This is a "cheatsheet" of information for the workshop. Please let us know if th
 - Project information: https://github.com/semaphoreP/codeastro#project-information
 - Vocabulary: https://docs.google.com/document/d/1SM4SNwluiyI4eRGoEG0mEGpcOCMBhsvjOnT1CRCSejg/edit
 - Anonymous feedback form: https://forms.gle/wGL3PVPu2fanrp4W8
+- Diagnostic Assignment: https://colab.research.google.com/drive/1ZctFSkoE0uorM13Js-Djco09ve_7LOEh?usp=sharing
 - Day 1 Homepage: https://github.com/semaphoreP/codeastro/tree/main/Day1#day-1
 - Day 2 Homepage: https://github.com/semaphoreP/codeastro/tree/main/Day2#day-2
 - Day 3 Homepage: https://github.com/semaphoreP/codeastro/tree/main/Day3#day-3
