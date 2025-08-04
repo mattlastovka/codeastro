@@ -5,10 +5,11 @@ This is a "cheatsheet" of information for the workshop. Please let us know if th
 - Workshop GitHub (course materials): https://github.com/semaphoreP/codeastro
 - Calendar (has room & zoom info): https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America/Los_Angeles&src=ZTExaWdnaGdncmU5a2FnaTg4bDM3Z2FkODhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688&title=Code/Astro
 - Discord (for discussions; invite-only): https://discord.com/channels/851894981999591424/851899721479749652
-- Piazza (for questions; invite-only): https://piazza.com/class/lxpaku2gmn92rx
+- Piazza (for questions; invite-only): [https://piazza.com/class/lxpaku2gmn92rx](https://piazza.com/class/mcfn4vfdp3l3ey)
 - Project information: https://github.com/semaphoreP/codeastro#project-information
 - Vocabulary: https://docs.google.com/document/d/1SM4SNwluiyI4eRGoEG0mEGpcOCMBhsvjOnT1CRCSejg/edit
 - Anonymous feedback form: https://forms.gle/wGL3PVPu2fanrp4W8
+- Diagnostic Assignment: https://colab.research.google.com/drive/1ZctFSkoE0uorM13Js-Djco09ve_7LOEh?usp=sharing
 - Day 1 Homepage: https://github.com/semaphoreP/codeastro/tree/main/Day1#day-1
 - Day 2 Homepage: https://github.com/semaphoreP/codeastro/tree/main/Day2#day-2
 - Day 3 Homepage: https://github.com/semaphoreP/codeastro/tree/main/Day3#day-3
