@@ -15,8 +15,8 @@ these commands won't do anything.
 
 ```
 git config --global pull.rebase false
-git config --gloabl user.name <<YOUR FULL NAME>>
-git config --gloabl user.email <<YOUR EMAIL>>
+git config --global user.name <<YOUR FULL NAME>>
+git config --global user.email <<YOUR EMAIL>>
 ```
 
 Here's a nice description of what the first command is actually doing: 
@@ -38,7 +38,7 @@ Here's a nice description of what the first command is actually doing:
    
 ## Clone a Local Copy of the Repository to Your Machine
 3. Now that the github repo is created, we need to copy a version of
-   it to our local machine. This process is called "cloning". To clone
+   it to our local machine. This process is called "cloning." To clone
    the repo, click the green `Code` button, and copy the HTTPS address
    for the repo.
 
@@ -46,6 +46,10 @@ Here's a nice description of what the first command is actually doing:
    you'd like the repo to live on your local machine and type the
    following. This will create a new directory on your local machine with the same name as the repo. 
    
+   Note that cloning is *not* the same as installing code. It just copies 
+   the code to your computer! We will learn how to make your code installable later
+   this week.
+
 ```
 git clone <HTTPS_address_for_repo>
 ```
