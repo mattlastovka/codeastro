@@ -7,6 +7,21 @@ of files in the repo; and (4) Remove changes you don't want to keep.
 For this demo, you will need two wondows open: a web-browser
 with your Github page and VS Code. 
 
+## Before Starting:
+
+We recommend setting the following git environment variables. If you have run 
+git on the command line before, these will likely already be set, and running
+these commands won't do anything.
+
+```
+git config --global pull.rebase false
+git config --gloabl user.name <<YOUR FULL NAME>>
+git config --gloabl user.email <<YOUR EMAIL>>
+```
+
+Here's a nice description of what the first command is actually doing: 
+[atlassian.com/git/tutorials/merging-vs-rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing).
+
 ## Make a Remote Repository via Github
 
 1. After logging into github and navigating to ``Your Profile``, click the `Repositories` tab at the top
@@ -158,8 +173,9 @@ see if you have any uncommitted local changes before using git pull.
     that case, git isn't sure which change to keep, and a conflict is
     raised. For example, let's manufacture a conflict in `hello.txt`.
     We'll edit the file on the remote repo directly via the Github
-    interface, and then edit the file locally on our machine. Remember
-    to `git commit` the local changes.
+    interface, and then edit the file locally on our machine. 
+
+**Please `git commit` your local changes before trying to run the following.**
 	
     Now, if you try to `git push` the local changes, there is a conflict
 warning:
@@ -168,7 +184,9 @@ warning:
   <img width="951" height="150" src="./figs/conflict.png">
 </p>
 	
-If this happens, then the first thing we need to do is pull down the remote repo in order to see the conflict:
+If this happens, then the first thing we need to do is pull down the remote repo in order to see the conflict.
+Again, **remember to `git commit` your local changes before trying to run the following.**
+	
   
 ```
 git pull origin main
@@ -217,15 +235,15 @@ if detects local changes). In this case, we can use:
 ```
 git stash
 git pull origin main
-git stash apply
+git stash pop
 ```
 
 `git stash` tells git to store your local changes elsewhere for the
 time being. Then, it will allow you to pull down changes in the remote
 repo. Then, you can "bring back" your local changes by using `git
-stash apply`.
+stash pop`.
 
-NOTE: using `git stash apply` can cause a merge conflict! In that
+NOTE: using `git stash pop` can cause a merge conflict! In that
 case, the conflict is marked in the file and you will need to resolve
 it as we showed earlier.
 
