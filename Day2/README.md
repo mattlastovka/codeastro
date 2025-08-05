@@ -23,5 +23,4 @@ Example:  We’ll continue working on the core functionality we sketched out yes
 
 Optional Activities:
   * [Colaboratory link for parallelism.ipynb](https://colab.research.google.com/github/semaphoreP/codeastro/blob/main/Day2/parallelism/parallelism.ipynb)
- * [Slides for astropy lesson](https://github.com/semaphoreP/codeastro/blob/main/Day1/astropy_slides.pdf)
 
